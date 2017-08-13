@@ -1,0 +1,22 @@
+body
+{
+	background-color: black;
+	color: white;
+}
+.inverted
+{
+	filter: invert(100%);
+}
+.black
+{
+	background-color: black;
+}
+.float
+{
+	float: left;
+}
+.resize
+{
+	width: 25%;
+	height: 25%;
+}
