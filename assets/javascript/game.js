@@ -8,7 +8,7 @@ var lettersUsed =document.getElementById('Letters-Used');
 var lives= document.getElementById('Lives');
 var thePage=document.getElementById('The-Page');
 var slenderman=document.getElementById('Slenderman');
-var distance = 100;
+var distance = 65;
 wins.innerHTML = "<p>You've collected " + pages + " of the eight pages</p>";
 slenderman.innerHTML= '<img class="resize" src="assets/images/Slenderman.png">';
 var gameBoard=[""];
@@ -55,7 +55,7 @@ function reset (didWin)
 	{
 		pages=0;
 		wins.innerHTML = "<p>You've collected " + pages + " of the eight pages</p>";
-		distance=100;
+		distance=65;
 		thePage.innerHTML = "<p>Slenderman got you, better luck next time</p>"
 		slenderman.innerHTML= '<img class="resize" src="assets/images/Slenderman.png">';
 	}
