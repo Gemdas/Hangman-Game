@@ -46,7 +46,7 @@ function reset (didWin)
 		else
 		{
 			slenderman.innerHTML= '<a href="https://www.youtube.com/watch?v=yaoZ8lG-Ehs"> <img class="resize" src="assets/images/Slenderman.png"> </a>';
-			wins.innerHTML = "<p>You've collected " + pages + " of the eight pages, you can now go fight Slenderman</p>";
+			wins.innerHTML = "<p>You've collected " + pages + " of the eight pages. You can now go fight Slenderman, but how?</p>";
 		}
 		
 		thePage.innerHTML = "<p>The page says " + answer + "</p>"
@@ -64,7 +64,7 @@ function reset (didWin)
 	slendy();
 }
 document.onkeyup = function(event) {
-		
+	var isGoodInput=false;
 	var userGuess = event.key;
 	var isInWord=false;
 	var hasWon=true;
