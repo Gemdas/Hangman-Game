@@ -54,6 +54,7 @@ function reset (didWin)
 	else
 	{
 		pages=0;
+		wins.innerHTML = "<p>You've collected " + pages + " of the eight pages</p>";
 		distance=100;
 		thePage.innerHTML = "<p>Slenderman got you, better luck next time</p>"
 		slenderman.innerHTML= '<img class="resize" src="assets/images/Slenderman.png">';
@@ -63,8 +64,8 @@ function reset (didWin)
 	slendy();
 }
 document.onkeyup = function(event) {
+		
 	var userGuess = event.key;
-	var isGoodInput=false;
 	var isInWord=false;
 	var hasWon=true;
 	var Board='';
