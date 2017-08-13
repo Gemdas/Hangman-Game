@@ -61,11 +61,10 @@ function reset (didWin)
 	setAnswer();
 	lettersUsed.innerHTML = ""
 	slendy();
-
 }
 document.onkeyup = function(event) {
-	var isGoodInput=false;
 	var userGuess = event.key;
+	var isGoodInput=false;
 	var isInWord=false;
 	var hasWon=true;
 	var Board='';
