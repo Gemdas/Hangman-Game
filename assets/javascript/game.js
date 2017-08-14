@@ -55,7 +55,7 @@ function reset (didWin)
 		else
 		{
 			slenderman.innerHTML= '<a href="https://www.youtube.com/watch?v=yaoZ8lG-Ehs"> <img class="resize" src="assets/images/Slenderman.png"> </a>';
-			wins.innerHTML = "<p>You've collected " + pages + " of the eight pages. You can now go fight Slenderman, but how?</p>";
+			wins.innerHTML = "<p>You've collected " + pages + " of the eight pages. You can now use your dagger to fight Slenderman, but how?</p>";
 		}
 		
 		thePage.innerHTML = "<p>The page says " + answer + "</p>"
